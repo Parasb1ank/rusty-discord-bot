@@ -6,7 +6,8 @@ and api & role id are passed to Client Builder of serenity by TypeMap. Which can
 
 Some Dependencies might not be required.
 Adding Dependencies:
-```
+```toml
+[dependencies]
 tokio = { version = "1.18" , features = ["full"] }
 reqwest = { version = "0.11", features = ["json"] }
 toml = "0.5.9"
@@ -17,7 +18,7 @@ openai-api-fork ="0.2.1"
 ```
 
 Edit config.toml:
-```
+```toml
 discord_token = "Your Discord Bot Token"
 command_prefix = "Command Prefix"
 openai_key = "OpenAI API Key"
@@ -25,7 +26,9 @@ admin_role = admin_role_id
 ```
 
 Chat Bot Commands:
-```Ru help```
+```
+Ru help
+```
 <p align="center">
   <img src="result.png"/>
 </p>
