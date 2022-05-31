@@ -25,6 +25,7 @@ admin_role = admin_role_id
 ```
 
 Chat Bot Commands:
+```Ru help```
 <p align="center">
   <img src="result.png"/>
 </p>
